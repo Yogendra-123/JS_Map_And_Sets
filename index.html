@@ -26,7 +26,7 @@
         <pre>
         let arr = [2,1,5,1,2,3,5,12]
         let newset = new Set();
-        for(let i=0; iarr.length; i++){
+        for(let i=0; i=arr.length-1; i++){
         newset.add(arr[i])
         }
         console.log(newset)
@@ -50,7 +50,7 @@
             <pre>
             let s = 'AABBADCCS';
             let map = new Map();
-            for(let i=0; is.length; i++){
+            for(let i=0; i=s.length-1; i++){
             if(map.has(s[i])){
                 let value = map.get(s[i]);
                 map.set(s[i], value+1)
@@ -63,6 +63,7 @@
             console.log(k+ "=" + v)
             }
             </pre>
+            <script src="./main.js"></script>
     
 </body>
 </html>
